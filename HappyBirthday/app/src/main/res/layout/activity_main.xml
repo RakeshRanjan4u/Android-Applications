@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bithday" />
+
+
+    <TextView
+        android:id="@+id/michael"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Happy Birthday,Michael!"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="--From Natalie"
+        android:layout_marginBottom="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+
+        android:textSize="30sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+    <!--   <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:background="#e7ede6">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:text="Happy"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:text="Birthday"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentBottom="true"
+               android:text="To You"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+           <TextView
+               android:id="@+id/joker"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Joker!!"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+           <ImageView
+               android:id="@+id/photo"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:paddingLeft="10dp" />
+
+           <TextView
+               android:id="@+id/photo_cap"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_centerVertical="true"
+               android:layout_toRightOf="@id/photo"
+               android:padding="4dp"
+               android:text="Beach Scenary!!"
+               android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+               android:textColor="@color/colorAccent" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_above="@id/photo_cap"
+               android:layout_toRightOf="@id/photo"
+               android:text="DUBAI TOURISM"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="bold" />
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/photo_cap"
+               android:layout_toRightOf="@id/photo"
+               android:text="10 miles away"
+               android:textAppearance="@style/TextAppearance.AppCompat.Large"
+               android:textStyle="italic" />
+
+           <ImageView
+               android:id="@+id/leaf"
+               android:layout_width="match_parent"
+               android:layout_height="287dp"
+               android:layout_above="@id/photo"
+               android:layout_below="@id/joker"
+               android:layout_marginTop="6dp"
+               android:layout_marginBottom="42dp"
+               android:paddingLeft="10dp"
+               android:paddingRight="10dp"
+               android:paddingBottom="0dp"
+               android:src="@drawable/img" />
+
+           <TextView
+               android:id="@+id/invite"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/photo"
+               android:layout_marginTop="5dp"
+               android:background="#3cb513"
+               android:paddingLeft="16dp"
+               android:text="You're Invited!"
+               android:textColor="@android:color/white"
+               android:textSize="60sp" />
+
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/invite"
+               android:background="#3cb513"
+               android:paddingLeft="16dp"
+               android:paddingTop="8dp"
+               android:paddingBottom="8dp"
+               android:text="Bonfire at the Beach.."
+               android:textColor="@android:color/white"
+               android:textSize="35sp" />
+
+
+       </RelativeLayout> -->
+
