@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
+    android:paddingBottom="8dp"
+    android:background="#8ba"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textColor="#00ff00"
+        android:textAllCaps="true"
+        android:textSize="40sp"
+        android:text="Health@Check"
+        android:background="#389"/>
+    <TextView
+        android:id="@+id/display_text_view"
+        android:layout_width="50mm"
+        android:layout_height="20mm"
+        android:layout_gravity="center"
+        android:layout_marginTop="20pt"
+        android:layout_marginBottom="20pt"
+        android:text="Are You Healthy ?? \nClick button accordingly!! \n \nCurrent Health Level is:  0"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/yes_button"
+        android:layout_width="25mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="YES"
+        android:textSize="40sp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+       android:onClick="increment" />
+    <Button
+        android:id="@+id/sometimes_button"
+        android:layout_width="50mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SOMETIMES"
+        android:textSize="40sp"
+        android:paddingBottom="10dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_light"
+        android:onClick="noChange"/>
+    <Button
+        android:id="@+id/no_button"
+        android:layout_width="25mm"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="NO"
+        android:textSize="40sp"
+        android:paddingBottom="8dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:onClick="decrement"/>
+
+</LinearLayout>
