@@ -1,6 +1,6 @@
 <resources>
     <!-- Title for application [CHAR LIMIT=12] -->
-    <string name="app_name">Miwok App</string>
+    <string name="app_name">Miwok</string>
 
     <!-- Title for PHRASES [CHAR LIMIT=20] -->
     <string name="category_phrases">Phrases</string>
